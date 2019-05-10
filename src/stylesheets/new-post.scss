@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,600");
+
+$dark-grey: #222831;
+$light-grey: #eeeeee;
+$aqua: #00adb5;
+
+
+.page-header {
+    text-align: center;
+    padding-top: 5vw;
+}
+.new-post-form {
+  display: flex;
+  flex-direction: column;
+  // align-items: flex-start;
+  width: fit-content;
+  height: fit-content;
+  padding: 3vw;
+  input {
+    margin: 3vw 0;
+    width: 70vw;
+    border-radius: 0;
+  }
+  .submit-button {
+    font-family: "Raleway", sans-serif;
+    border-radius: 20px;
+    width: 10vw;
+    background-color: $aqua;
+    color: white;
+  }
+}
+
+.new-post {
+  height: 60vw;
+  width: 50vw;
+}
+
+.ck-editor .ck-rounded-corners {
+  height: 50vw;
+  width: 70vw;
+  color: $dark-grey;
+}

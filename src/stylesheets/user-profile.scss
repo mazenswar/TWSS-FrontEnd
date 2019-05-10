@@ -1,0 +1,85 @@
+$dark-grey: #222831;
+$light-grey: #eeeeee;
+$aqua: #00adb5;
+
+#profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  width: 80vw;
+  margin: 0 auto;
+  padding: 10vw 0;
+  flex-direction: column;
+  .user-profile-image {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 100%;
+    border: 3px solid $aqua;
+    margin: 0 auto;
+  }
+  h1 {
+    border-bottom: 2px solid $aqua;
+    padding: 0.7vw 0;
+  }
+  #auth-button {
+    position: absolute;
+    top: 10vw;
+    right: 5vw;
+    background-color: $aqua;
+    padding: 1vw;
+    border-radius: 100%;
+    height: 5vw;
+    width: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5vw;
+    // font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    transition: 0.7s;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+
+
+.profile-posts {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  width: 80vw;
+}
+
+
+
+.posts-links {
+  text-align: left;
+  max-width: 100%;
+  margin: 0.5vw 0;
+  padding: 2vw;
+  border: 1px solid $aqua;
+  font-size: 1.5vw;
+  transition: 0.7s;
+  text-decoration: none;
+  color: white;
+  &:hover {
+    background-color: $aqua;
+    color: $dark-grey
+  }
+  h4 {
+    font-size: 2vw;
+    width: fit-content;
+    padding: 0 3vw 0.5vw 3vw;
+    margin: 0 auto;
+    border-bottom: 0.2vw solid $aqua;
+  }
+
+  p {
+    padding-top: 1vw;
+    font-size: 1vw;
+    text-align: center;
+  }
+}

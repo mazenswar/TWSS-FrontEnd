@@ -1,0 +1,96 @@
+$dark-grey: #222831;
+$light-grey: #eeeeee;
+$aqua: #00adb5;
+
+.SocialMediaShareButton,
+.SocialMediaShareButton--twitter {
+  height: fit-content;
+  width: fit-content;
+}
+
+.show-post-container {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 5vw 10vw;
+}
+
+.show-post-title {
+  max-width: 100%;
+  text-align: center;
+  padding: 2vw;
+  font-size: 4vw;
+  border-bottom: 0.2vw solid $aqua;
+}
+
+.show-post-content {
+  padding: 1vw 0;
+  max-width: 100%;
+  line-height: 1.5;
+  text-align: justify;
+  li {
+    padding: 1vw 0;
+    font-size: 1.5vw;
+  }
+  a {
+    color: $aqua;
+  }
+}
+
+.date-sm-div {
+  display: flex;
+  justify-content: space-evenly;
+  width: 65%;
+  margin: auto;
+  padding: 5vw;
+
+  div {
+    transition: 0.7s;
+  }
+  div:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+
+  .date-p {
+    padding: 0;
+    padding-left: 2vw;
+    height: 5vw;
+    color: $aqua;
+    font-size: 1.5vw;
+  }
+  .heart-icon {
+    width: 3vw;
+    height: 3vw;
+    padding: 1vw;
+    border: 1px solid $aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s;
+    &:hover {
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+    img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+  .delete-post-button {
+    width: 10vw;
+    text-align: center;
+    background-color: $aqua;
+    color: $dark-grey;
+    border: none;
+    border-radius: 30px;
+    padding: 1.5vw;
+    font-size: 1.5vw;
+    // margin-bottom: 15vw;
+    transition: 0.4s;
+    &:hover {
+      background-color: red;
+      color: white;
+      cursor: pointer;
+    }
+  }
+}

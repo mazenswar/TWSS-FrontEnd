@@ -1,0 +1,56 @@
+$dark-grey: #222831;
+$light-grey: #eeeeee;
+$aqua: #00adb5;
+
+.conversations-list {
+  h2 {
+    font-size: 3vw;
+  }
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: fit-content;
+  height: 100%;
+}
+
+.newConversationForm {
+  height: fit-content;
+  form {
+    height: fit-content;
+    padding: 3vw;
+    border-radius: 40px;
+    font-size: 1.5vw;
+    .conv-title {
+      width: 80%;
+    }
+    input {
+      padding: 0.5vw;
+      margin: 1vw;
+    }
+  }
+}
+
+.conversations-ul {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  width: 70vw;
+  a {
+    border: 0.3vw solid $aqua;
+    width: 100%;
+    padding: 1.5vw 0;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 2vw;
+    &:hover {
+      background-color: $aqua;
+      color: $light-grey;
+    }
+  }
+}

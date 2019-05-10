@@ -1,0 +1,60 @@
+$dark-grey: #222831;
+$light-grey: #eeeeee;
+$aqua: #00adb5;
+
+.form-container {
+  height: 79vh;
+}
+
+.submit-button {
+  background-color: $aqua;
+  color: $dark-grey;
+  width: 10vw;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vw;
+  width: 60vw;
+  margin: 5vw auto;
+  border-radius: 40px 0 40px 0;
+  border: 2px solid $aqua;
+}
+
+.submit {
+  background: $aqua;
+}
+
+textarea {
+  width: 35vw;
+  height: 10vw;
+  margin: 2vw;
+  font-size: 1vw;
+  border-radius: 20px;
+  padding: 1vw;
+  border: none;
+}
+
+input {
+  width: 20vw;
+  height: 3vw;
+  margin: 2vw;
+  font-size: 1vw;
+  border-radius: 20px;
+  padding: 1vw;
+  border: none;
+}
+
+textarea:focus, input:focus {outline:0}
+
+span {
+  padding: 1vw;
+}
+
+a {
+  color: $aqua;
+  margin: 1vw;
+}
