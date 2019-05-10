@@ -15,6 +15,7 @@ This project is dedicated to celebrate the ideas and impact of feminists and wom
 - React-Share
 - CKEditor
 - SASS
+- HTML / CSS
 
 ### Demo 
 
